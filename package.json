@@ -1,0 +1,14 @@
+{
+  "name": "zenn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ellreka/zenn.git",
+  "author": "ellreka <ellreka5364@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "zenn preview --port 3333"
+  },
+  "dependencies": {
+    "zenn-cli": "^0.1.114"
+  }
+}
