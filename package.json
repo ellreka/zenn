@@ -6,6 +6,7 @@
   "author": "ellreka <ellreka5364@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "new:article": "zenn new:articles",
     "dev": "zenn preview --port 3333"
   },
   "dependencies": {
