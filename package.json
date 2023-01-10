@@ -8,7 +8,8 @@
   "scripts": {
     "new:article": "zenn new:articles",
     "dev": "zenn preview --port 3333",
-    "lint": "textlint --fix articles/**/*.md"
+    "lint": "textlint articles/**/*.md",
+    "lint:fix": "textlint --fix articles/**/*.md"
   },
   "dependencies": {
     "textlint": "^12.5.1",
