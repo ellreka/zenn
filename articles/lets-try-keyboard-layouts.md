@@ -1,6 +1,6 @@
 ---
 title: "色々なキーボード配列を試したり、カスタマイズ出来るサイトを作った"
-emoji: "⌨"
+emoji: "⌨️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["keyboard", "remix"]
 published: true
