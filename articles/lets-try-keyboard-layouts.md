@@ -10,11 +10,11 @@ published: true
 
 ![](https://gyazo.com/9db742dc7682848ef22a998a7a9af5b5.png)
 
-色々なキーボード配列(Dvorak, Colemak, Eucalyn など)を QWERTY 配列のまま試すことが出来たり、配列をカスタマイズしてオリジナルの配列を作って共有することが出来ます。
+色々なキーボード配列(Dvorak, Colemak, Eucalyn など)を QWERTY 配列のまま試したり、配列をカスタマイズしてオリジナルの配列を作って共有することが出来ます。
 
 ※似たようなサイトはいくつかあります。
 
-https://lets-try-keyboard-layouts-ellreka.vercel.app/
+https://lets-try-keyboard-layouts.ellreka.net
 
 ## 動機
 
@@ -29,8 +29,6 @@ QWERTY 配列に疑問を抱いている人が気軽に他の配列を試せる�
 ## 技術的な構成
 
 フレームワークは Remix で、デプロイ先は Vercel です。
-
-もともと Cloudflare Workers で動かそうとしたのですが OGP 画像の生成周りが面倒(Vercel のが楽)だったので断念しました。
 
 ### 配列データをクエリ文字列に変換する
 
