@@ -47,7 +47,7 @@ https://lets-try-keyboard-layouts.vercel.app/?q=1!%202%40%203%23%204%24%205%25%2
 ### エンコード
 
 ```ts
-export const encodeLayoutData = (layoutData: KeyboardLayout) => {
+export const encodeLayoutData = (layoutData: Array<string[] | string>[]) => {
   const flattenLayout = layoutData.flat().reduce<string[]>((acc, cur) => {
     if (Array.isArray(cur)) {
       return [...acc, cur.join("")];
