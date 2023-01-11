@@ -7,9 +7,16 @@
   "license": "MIT",
   "scripts": {
     "new:article": "zenn new:articles",
-    "dev": "zenn preview --port 3333"
+    "dev": "zenn preview --port 3333",
+    "lint": "textlint articles/**/*.md",
+    "lint:fix": "textlint --fix articles/**/*.md"
   },
   "dependencies": {
+    "textlint": "^12.5.1",
+    "textlint-rule-preset-ja-technical-writing": "^7.0.0",
     "zenn-cli": "^0.1.121"
+  },
+  "volta": {
+    "node": "16.19.0"
   }
 }
